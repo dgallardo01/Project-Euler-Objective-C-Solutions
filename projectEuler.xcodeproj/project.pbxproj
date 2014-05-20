@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F98AC5192B8C8D0037B585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F98AC4192B8C8D0037B585 /* Foundation.framework */; };
+		30F98AC7192B8C8D0037B585 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F98AC6192B8C8D0037B585 /* CoreGraphics.framework */; };
+		30F98AC9192B8C8D0037B585 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F98AC8192B8C8D0037B585 /* UIKit.framework */; };
+		30F98ACF192B8C8D0037B585 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F98ACD192B8C8D0037B585 /* InfoPlist.strings */; };
+		30F98AD1192B8C8D0037B585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F98AD0192B8C8D0037B585 /* main.m */; };
+		30F98AD5192B8C8D0037B585 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F98AD4192B8C8D0037B585 /* AppDelegate.m */; };
+		30F98AD8192B8C8D0037B585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F98AD6192B8C8D0037B585 /* Main.storyboard */; };
+		30F98ADB192B8C8D0037B585 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F98ADA192B8C8D0037B585 /* ViewController.m */; };
+		30F98ADD192B8C8D0037B585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F98ADC192B8C8D0037B585 /* Images.xcassets */; };
+		30F98AE4192B8C8D0037B585 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F98AE3192B8C8D0037B585 /* XCTest.framework */; };
+		30F98AE5192B8C8D0037B585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F98AC4192B8C8D0037B585 /* Foundation.framework */; };
+		30F98AE6192B8C8D0037B585 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F98AC8192B8C8D0037B585 /* UIKit.framework */; };
+		30F98AEE192B8C8D0037B585 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F98AEC192B8C8D0037B585 /* InfoPlist.strings */; };
+		30F98AF0192B8C8D0037B585 /* projectEulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F98AEF192B8C8D0037B585 /* projectEulerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F98AE7192B8C8D0037B585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F98AB9192B8C8D0037B585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F98AC0192B8C8D0037B585;
+			remoteInfo = projectEuler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F98AC1192B8C8D0037B585 /* projectEuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectEuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F98AC4192B8C8D0037B585 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30F98AC6192B8C8D0037B585 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30F98AC8192B8C8D0037B585 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30F98ACC192B8C8D0037B585 /* projectEuler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "projectEuler-Info.plist"; sourceTree = "<group>"; };
+		30F98ACE192B8C8D0037B585 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F98AD0192B8C8D0037B585 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30F98AD2192B8C8D0037B585 /* projectEuler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "projectEuler-Prefix.pch"; sourceTree = "<group>"; };
+		30F98AD3192B8C8D0037B585 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30F98AD4192B8C8D0037B585 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30F98AD7192B8C8D0037B585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F98AD9192B8C8D0037B585 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30F98ADA192B8C8D0037B585 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30F98ADC192B8C8D0037B585 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30F98AE2192B8C8D0037B585 /* projectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F98AE3192B8C8D0037B585 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30F98AEB192B8C8D0037B585 /* projectEulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "projectEulerTests-Info.plist"; sourceTree = "<group>"; };
+		30F98AED192B8C8D0037B585 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F98AEF192B8C8D0037B585 /* projectEulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectEulerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F98ABE192B8C8D0037B585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F98AC7192B8C8D0037B585 /* CoreGraphics.framework in Frameworks */,
+				30F98AC9192B8C8D0037B585 /* UIKit.framework in Frameworks */,
+				30F98AC5192B8C8D0037B585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F98ADF192B8C8D0037B585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F98AE4192B8C8D0037B585 /* XCTest.framework in Frameworks */,
+				30F98AE6192B8C8D0037B585 /* UIKit.framework in Frameworks */,
+				30F98AE5192B8C8D0037B585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F98AB8192B8C8D0037B585 = {
+			isa = PBXGroup;
+			children = (
+				30F98ACA192B8C8D0037B585 /* projectEuler */,
+				30F98AE9192B8C8D0037B585 /* projectEulerTests */,
+				30F98AC3192B8C8D0037B585 /* Frameworks */,
+				30F98AC2192B8C8D0037B585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F98AC2192B8C8D0037B585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F98AC1192B8C8D0037B585 /* projectEuler.app */,
+				30F98AE2192B8C8D0037B585 /* projectEulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F98AC3192B8C8D0037B585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F98AC4192B8C8D0037B585 /* Foundation.framework */,
+				30F98AC6192B8C8D0037B585 /* CoreGraphics.framework */,
+				30F98AC8192B8C8D0037B585 /* UIKit.framework */,
+				30F98AE3192B8C8D0037B585 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F98ACA192B8C8D0037B585 /* projectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				30F98AD3192B8C8D0037B585 /* AppDelegate.h */,
+				30F98AD4192B8C8D0037B585 /* AppDelegate.m */,
+				30F98AD6192B8C8D0037B585 /* Main.storyboard */,
+				30F98AD9192B8C8D0037B585 /* ViewController.h */,
+				30F98ADA192B8C8D0037B585 /* ViewController.m */,
+				30F98ADC192B8C8D0037B585 /* Images.xcassets */,
+				30F98ACB192B8C8D0037B585 /* Supporting Files */,
+			);
+			path = projectEuler;
+			sourceTree = "<group>";
+		};
+		30F98ACB192B8C8D0037B585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F98ACC192B8C8D0037B585 /* projectEuler-Info.plist */,
+				30F98ACD192B8C8D0037B585 /* InfoPlist.strings */,
+				30F98AD0192B8C8D0037B585 /* main.m */,
+				30F98AD2192B8C8D0037B585 /* projectEuler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30F98AE9192B8C8D0037B585 /* projectEulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F98AEF192B8C8D0037B585 /* projectEulerTests.m */,
+				30F98AEA192B8C8D0037B585 /* Supporting Files */,
+			);
+			path = projectEulerTests;
+			sourceTree = "<group>";
+		};
+		30F98AEA192B8C8D0037B585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F98AEB192B8C8D0037B585 /* projectEulerTests-Info.plist */,
+				30F98AEC192B8C8D0037B585 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F98AC0192B8C8D0037B585 /* projectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F98AF3192B8C8D0037B585 /* Build configuration list for PBXNativeTarget "projectEuler" */;
+			buildPhases = (
+				30F98ABD192B8C8D0037B585 /* Sources */,
+				30F98ABE192B8C8D0037B585 /* Frameworks */,
+				30F98ABF192B8C8D0037B585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projectEuler;
+			productName = projectEuler;
+			productReference = 30F98AC1192B8C8D0037B585 /* projectEuler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F98AE1192B8C8D0037B585 /* projectEulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F98AF6192B8C8D0037B585 /* Build configuration list for PBXNativeTarget "projectEulerTests" */;
+			buildPhases = (
+				30F98ADE192B8C8D0037B585 /* Sources */,
+				30F98ADF192B8C8D0037B585 /* Frameworks */,
+				30F98AE0192B8C8D0037B585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F98AE8192B8C8D0037B585 /* PBXTargetDependency */,
+			);
+			name = projectEulerTests;
+			productName = projectEulerTests;
+			productReference = 30F98AE2192B8C8D0037B585 /* projectEulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F98AB9192B8C8D0037B585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Danny;
+				TargetAttributes = {
+					30F98AE1192B8C8D0037B585 = {
+						TestTargetID = 30F98AC0192B8C8D0037B585;
+					};
+				};
+			};
+			buildConfigurationList = 30F98ABC192B8C8D0037B585 /* Build configuration list for PBXProject "projectEuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F98AB8192B8C8D0037B585;
+			productRefGroup = 30F98AC2192B8C8D0037B585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F98AC0192B8C8D0037B585 /* projectEuler */,
+				30F98AE1192B8C8D0037B585 /* projectEulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F98ABF192B8C8D0037B585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F98ADD192B8C8D0037B585 /* Images.xcassets in Resources */,
+				30F98ACF192B8C8D0037B585 /* InfoPlist.strings in Resources */,
+				30F98AD8192B8C8D0037B585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F98AE0192B8C8D0037B585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F98AEE192B8C8D0037B585 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F98ABD192B8C8D0037B585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F98ADB192B8C8D0037B585 /* ViewController.m in Sources */,
+				30F98AD5192B8C8D0037B585 /* AppDelegate.m in Sources */,
+				30F98AD1192B8C8D0037B585 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F98ADE192B8C8D0037B585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F98AF0192B8C8D0037B585 /* projectEulerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F98AE8192B8C8D0037B585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F98AC0192B8C8D0037B585 /* projectEuler */;
+			targetProxy = 30F98AE7192B8C8D0037B585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F98ACD192B8C8D0037B585 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F98ACE192B8C8D0037B585 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30F98AD6192B8C8D0037B585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F98AD7192B8C8D0037B585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30F98AEC192B8C8D0037B585 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F98AED192B8C8D0037B585 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F98AF1192B8C8D0037B585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30F98AF2192B8C8D0037B585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F98AF4192B8C8D0037B585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectEuler/projectEuler-Prefix.pch";
+				INFOPLIST_FILE = "projectEuler/projectEuler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30F98AF5192B8C8D0037B585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectEuler/projectEuler-Prefix.pch";
+				INFOPLIST_FILE = "projectEuler/projectEuler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30F98AF7192B8C8D0037B585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/projectEuler.app/projectEuler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectEuler/projectEuler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "projectEulerTests/projectEulerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30F98AF8192B8C8D0037B585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/projectEuler.app/projectEuler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectEuler/projectEuler-Prefix.pch";
+				INFOPLIST_FILE = "projectEulerTests/projectEulerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F98ABC192B8C8D0037B585 /* Build configuration list for PBXProject "projectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F98AF1192B8C8D0037B585 /* Debug */,
+				30F98AF2192B8C8D0037B585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F98AF3192B8C8D0037B585 /* Build configuration list for PBXNativeTarget "projectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F98AF4192B8C8D0037B585 /* Debug */,
+				30F98AF5192B8C8D0037B585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30F98AF6192B8C8D0037B585 /* Build configuration list for PBXNativeTarget "projectEulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F98AF7192B8C8D0037B585 /* Debug */,
+				30F98AF8192B8C8D0037B585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F98AB9192B8C8D0037B585 /* Project object */;
+}
