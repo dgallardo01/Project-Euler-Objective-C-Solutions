@@ -19,9 +19,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    //Question 1
     NSNumber *total = [self sumOfMultiplesBelowNumber:@1000];
-    NSLog(@"%@",total);
+    NSLog(@"Question 1: %@",total);
     
+    //Question 2
+    NSNumber *sum = [self sumOfFibNumbersLessThanNumber:@4000000];
+    NSLog(@"Question 2: %@", sum);
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,6 +45,25 @@
         }
     }
     
+    return @(sum);
+}
+
+//Question 2
+- (NSNumber *)sumOfFibNumbersLessThanNumber:(NSNumber *)number{
+    NSInteger sum = 0;
+    
+    NSInteger lastNumber = 0;
+    NSInteger lastLastNumber = 1;
+    
+    for (NSInteger i = lastNumber; i < [number integerValue]; i++) {
+        i = lastNumber + lastLastNumber;
+        lastNumber = lastLastNumber;
+        lastLastNumber = i;
+        
+        if(i % 2 == 0){
+            sum +=i;
+        }
+    }
     return @(sum);
 }
 
