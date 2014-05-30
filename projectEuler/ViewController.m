@@ -26,6 +26,9 @@
     //Question 2
     NSNumber *sum = [self sumOfFibNumbersLessThanNumber:@4000000];
     NSLog(@"Question 2: %@", sum);
+    
+    //Question 3
+    NSLog(@"Questin 3: %lld",[self largestPrimeOfNumber:600851475143]);
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,6 +60,7 @@
     
     for (NSInteger i = lastNumber; i < [number integerValue]; i++) {
         i = lastNumber + lastLastNumber;
+        
         lastNumber = lastLastNumber;
         lastLastNumber = i;
         
@@ -66,5 +70,23 @@
     }
     return @(sum);
 }
+
+//Question 3
+- (long long)largestPrimeOfNumber:(long long)number{
+    long long largestPrime = 1;
+    
+    if (number % 2 ==0) {
+        largestPrime = 2;
+        number = number/2;
+    }
+    for (long long i =3; i<=number; i+=2) {
+        if (number % i == 0) {
+            largestPrime = i;
+            number = number/i;
+        }
+    }
+    return largestPrime;
+}
+
 
 @end
